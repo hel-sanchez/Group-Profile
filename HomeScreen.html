@@ -3,51 +3,489 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Group 5 - Home</title>
+    <title>Group Profile - Softdev</title>
   </head>
   <body
-    background="Pictures/Groupic.png"
-    link="#000"
-    alink="#017bf5"
-    vlink="#000"
+    id="home"
+    style="
+      margin: 0;
+      padding: 0;
+      font-family: 'Work Sans', Helvetica, sans-serif;
+      color: #394c4a;
+      line-height: 1.5;
+      overflow-x: hidden;
+      font-size: 110%;
+    "
   >
-    <table width="100%" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <header
+      style="
+        background: linear-gradient(
+            rgba(255, 254, 253, 0.7),
+            rgba(255, 254, 253, 0.9)
+          ),
+          url('Pictures/Clearpic.jpg') top center fixed;
+        background-size: cover;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <!-- NAVBAR SECTION -->
+      <nav
+        style="
+          width: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 15px 0;
+        "
+      >
+        <ul
+          style="
+            list-style: none;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+          "
+        >
+          <li style="display: inline; margin: 0 10px">
+            <a
+              href="#home"
+              style="
+                color: white;
+                text-decoration: none;
+                font-family: 'Unica One', cursive;
+                font-size: 1.2rem;
+              "
+              >Home</a
+            >
+          </li>
+          <li style="display: inline; margin: 0 10px">
+            <a
+              href="#about"
+              style="
+                color: white;
+                text-decoration: none;
+                font-family: 'Unica One', cursive;
+                font-size: 1.2rem;
+              "
+              >About Us</a
+            >
+          </li>
+          <li style="display: inline; margin: 0 10px">
+            <a
+              href="#members"
+              style="
+                color: white;
+                text-decoration: none;
+                font-family: 'Unica One', cursive;
+                font-size: 1.2rem;
+              "
+              >Members</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <table style="padding-top: 70px; text-align: center; width: 100%">
+        <tr>
+          <td>
+            <img
+              src="Pictures/Clearpic.jpg"
+              alt="Profile Photo of Jane"
+              style="max-width: 40%; border-radius: 5%; border: solid black"
+            />
+            <p style="margin: 0.5rem 0; font-family: 'Unica One', cursive">
+              <i>a rare phenomenon of six pokemons gathering for a picture.</i>
+            </p>
+            <h1 style="margin: 0.5rem 0; font-family: 'Unica One', cursive">
+              GROUP 5
+            </h1>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <!-- About Us Section -->
+    <table
+      id="about"
+      style="
+        background-color: #eaeaea;
+        padding: 40px;
+        margin: 40px 0;
+        border-radius: 0.5%;
+        text-align: center;
+        width: 100%;
+      "
+    >
       <tr>
-        <td colspan="2" align="center">
-          <font face="Calibri, sans-serif" size="5" color="black">
-            <h1>GROUP PROFILE</h1>
-          </font>
-        </td>
-        <td align="center">
-          <font face="Calibri, sans-serif" size="4">
-            <a href="#home">Home</a> | <a href="#about">About</a> |
-            <a href="#members">Members</a>
-          </font>
+        <td>
+          <h2
+            style="
+              color: #333;
+              font-family: 'Unica One', cursive;
+              font-size: 3rem;
+            "
+          >
+            ~ About Us ~
+          </h2>
+          <p style="font-size: 25px">What to know about us?</p>
+          <p>
+            &nparsl; Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum! Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum! Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum!
+          </p>
         </td>
       </tr>
     </table>
 
-    <table>
+    <!-- Members Section -->
+    <table
+      id="members"
+      style="
+        background-color: #fff3d2;
+        padding: 40px;
+        margin: 40px 0;
+        border-radius: 0.5%;
+        text-align: center;
+        width: 100%;
+      "
+    >
       <tr>
-        <td colspan="2">
-          <font face="Calibri, sans-serif" size="5" color="black">
-            <div id="about">
-              <h2>About Us</h2>
-              <p>Information about the group.</p>
-            </div>
-          </font>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <font face="Calibri, sans-serif" size="5" color="black">
-            <div id="members">
-              <h2>Members</h2>
-              <p>Details about the members.</p>
-            </div>
-          </font>
+        <td>
+          <h2
+            style="
+              color: #333;
+              font-family: 'Unica One', cursive;
+              font-size: 3rem;
+            "
+          >
+            ~ Members ~
+          </h2>
+          <table style="width: 100%; text-align: center">
+            <tr>
+              <td style="padding: 10px">
+                <a href="#kian">
+                  <img
+                    src="Pictures/kian.jpg"
+                    height="200"
+                    width="200"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </td>
+              <td style="padding: 10px">
+                <a href="#hel">
+                  <img
+                    src="Pictures/hel.jpg"
+                    height="200"
+                    width="200"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </td>
+              <td style="padding: 10px">
+                <div
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid #ccc;
+                    line-height: 200px;
+                  "
+                >
+                  <a href="#kirby">
+                    <img
+                      src="Pictures/kirby.jpg"
+                      height="200"
+                      width="200"
+                      style="border: 1px solid #ccc"
+                    />
+                  </a>
+                </div>
+              </td>
+              <td style="padding: 10px">
+                <div
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid #ccc;
+                    line-height: 200px;
+                  "
+                >
+                  <a href="#lanz">
+                    <img
+                      src="Pictures/lanz.jpg"
+                      height="200"
+                      width="200"
+                      style="border: 1px solid #ccc"
+                    />
+                  </a>
+                </div>
+              </td>
+              <td style="padding: 10px">
+                <div
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid #ccc;
+                    line-height: 200px;
+                  "
+                >
+                  <a href="#josh">
+                    <img
+                      src="Pictures/josh.png"
+                      height="200"
+                      width="200"
+                      style="border: 1px solid #ccc"
+                    />
+                  </a>
+                </div>
+              </td>
+              <td style="padding: 10px">
+                <div
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid #ccc;
+                    line-height: 200px;
+                  "
+                >
+                  <a href="#cain">
+                    <img
+                      src="Pictures/cain.jpg"
+                      height="200"
+                      width="200"
+                      style="border: 1px solid #ccc"
+                    />
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
+
+    <!-- Kian Section -->
+
+    <!-- Hel Section -->
+    <section
+      id="hel"
+      style="
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+        overflow-x: hidden;
+      "
+    >
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td
+            align="center"
+            valign="middle"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(https://source.unsplash.com/random) no-repeat center
+                  center/cover;
+              height: 100vh;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              color: white;
+            "
+          >
+            <div style="flex: 1; display: flex; align-items: center">
+              <img
+                src="Pictures/hel.jpg"
+                alt="Hel Image"
+                style="
+                  width: 150px;
+                  height: 150px;
+                  border-radius: 50%;
+                  margin-right: 30px;
+                "
+              />
+              <div>
+                <h1 style="font-size: 4rem; margin: 0">Helaena Sanchez</h1>
+                <p style="font-size: 1.5rem; margin-top: 1rem">
+                  Web Developer | Designer
+                </p>
+              </div>
+            </div>
+
+            <table
+              width="80%"
+              border="0"
+              cellspacing="0"
+              cellpadding="0"
+              style="margin-top: 30px; margin-bottom: 30px;"
+            >
+              <tr>
+                <td
+                  width="50%"
+                  align="center"
+                  valign="middle"
+                  bgcolor="#292929"
+                  style="
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                    animation: popUp 2s ease;
+                  "
+                >
+                  <h2
+                    style="
+                      border-bottom: 2px solid #f0f0f0;
+                      padding-bottom: 10px;
+                      margin-bottom: 20px;
+                      font-size: 2rem;
+                      position: relative;
+                    "
+                  >
+                    About Me
+                  </h2>
+                  <p>
+                    Hello! I'm Helaena Sanchez - also known as Hel - a
+                    passionate web developer with a love for creating
+                    interactive and dynamic web experiences, especially
+                    designing the website for the pleasure of the eyes. When I'm
+                    not coding, you can find me at home, sleeping.
+                  </p>
+                  <div style="margin-top: 20px">
+                    <i
+                      class="fab fa-facebook-square"
+                      style="font-size: 3rem; color: white; margin-right: 10px"
+                    ></i>
+                    <i
+                      class="fab fa-instagram-square"
+                      style="font-size: 3rem; color: white; margin-right: 10px"
+                    ></i>
+                    <i
+                      class="fab fa-twitter-square"
+                      style="font-size: 3rem; color: white; margin-right: 10px"
+                    ></i>
+                    <i
+                      class="fab fa-github-square"
+                      style="font-size: 3rem; color: white; margin-right: 10px"
+                    ></i>
+                  </div>
+                </td>
+                <td
+                  width="50%"
+                  align="center"
+                  valign="middle"
+                  bgcolor="#292929"
+                  style="
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                    animation: popUp 2s ease;
+                  "
+                >
+                  <h2
+                    style="
+                      border-bottom: 2px solid #f0f0f0;
+                      padding-bottom: 10px;
+                      margin-bottom: 20px;
+                      font-size: 2rem;
+                      position: relative;
+                    "
+                  >
+                    Trivia
+                  </h2>
+                  <p
+                    style="
+                      font-size: 1.2rem;
+                      margin: 5px 0;
+                      background: rgba(0, 0, 0, 0.2);
+                      padding: 10px;
+                      border-radius: 5px;
+                      transition: background 0.3s ease;
+                    "
+                  >
+                    🌪️ In 10 minutes, a hurricane releases more energy than all
+                    the world's nuclear weapons combined.
+                  </p>
+                  <p
+                    style="
+                      font-size: 1.2rem;
+                      margin: 5px 0;
+                      background: rgba(0, 0, 0, 0.2);
+                      padding: 10px;
+                      border-radius: 5px;
+                      transition: background 0.3s ease;
+                    "
+                  >
+                    🐌 A snail can sleep for three years.
+                  </p>
+                  <p
+                    style="
+                      font-size: 1.2rem;
+                      margin: 5px 0;
+                      background: rgba(0, 0, 0, 0.2);
+                      padding: 10px;
+                      border-radius: 5px;
+                      transition: background 0.3s ease;
+                    "
+                  >
+                    😼 The only domestic animal not mentioned in the Bible is
+                    the cat.
+                  </p>
+                  <p
+                    style="
+                      font-size: 1.2rem;
+                      margin: 5px 0;
+                      background: rgba(0, 0, 0, 0.2);
+                      padding: 10px;
+                      border-radius: 5px;
+                      transition: background 0.3s ease;
+                    "
+                  >
+                    🪰 The house fly hums in the middle octave key of F.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Kirby Section -->
+
+    <!-- lanz Section -->
+
+    <!-- josh Section -->
+
+    <!-- cain Section -->
   </body>
 </html>
