@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Group Profile - Softdev</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body
     id="home"
@@ -42,6 +52,7 @@
           left: 0;
           background: rgba(0, 0, 0, 0.5);
           padding: 15px 0;
+          z-index: 9999;
         "
       >
         <ul
@@ -212,11 +223,11 @@
                 </a>
               </td>
               <td style="padding: 10px">
-                <a href="#kirby">
+                <a href="#matt">
                   <img
-                    src="Pictures/kirby.jpg"
-                    alt="Kirby Image"
-                    title="Kirby Image"
+                    src="Pictures/matt.jpg"
+                    alt="Matt Image"
+                    title="Matt Image"
                     height="200"
                     width="200"
                     style="border: 1px solid #ccc"
@@ -294,9 +305,7 @@
               left: 50%;
               transform: translate(-50%, -50%);
             "
-          >
-           
-          </div>
+          ></div>
           <h1
             style="
               text-shadow: 0 0 10px red, 0 0 20px blue,
@@ -629,7 +638,603 @@
       </table>
     </section>
 
-    <!-- Kirby Section -->
+    <!-- Matt Section -->
+    <section
+      id="matt"
+      style="
+        margin: 0;
+        padding: 40px 0;
+        font-family: Arial, sans-serif;
+        background-color: #f6aead;
+        color: #333;
+        overflow-x: hidden;
+        text-align: center;
+        position: relative;
+      "
+    >
+      <!-- DESIGN CHUCHU ESTETIK -->
+      <div
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none;
+        "
+      >
+        <img
+          src="Pictures/wave1.png"
+          style="position: absolute; left: -10%; width: 600px; z-index: 3"
+        />
+        <img
+          src="Pictures/wave2.png"
+          style="
+            position: absolute;
+            right: -7%;
+            bottom: 0%;
+            width: 600px;
+            z-index: 3;
+          "
+        />
+        <img
+          src="Pictures/wave3.png"
+          style="
+            position: absolute;
+            right: -6%;
+            top: 0%;
+            width: 600px;
+            z-index: 1;
+          "
+        />
+        <img
+          src="Pictures/wave4.png"
+          style="
+            position: absolute;
+            left: -10%;
+            bottom: 0%;
+            width: 600px;
+            z-index: 1;
+          "
+        />
+        <img
+          src="Pictures/kirby1.png"
+          style="position: absolute; right: 7%; bottom: 52%; width: 600px"
+        />
+        <img
+          src="Pictures/kirby2.png"
+          style="
+            position: absolute;
+            left: -10%;
+            bottom: 25%;
+            width: 600px;
+            z-index: 0;
+          "
+        />
+        <img
+          src="Pictures/Stars.png"
+          style="
+            position: absolute;
+            left: 30%;
+            bottom: 45%;
+            width: 450px;
+            z-index: 0;
+            transform: rotate(10deg);
+          "
+        />
+      </div>
+
+      <table
+        width="80%"
+        border="0"
+        cellspacing="0"
+        cellpadding="0"
+        align="center"
+      >
+        <tr>
+          <td
+            style="
+              background-color: rgba(231, 229, 223, 0.5);
+              border-radius: 10px;
+              box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+              padding: 20px;
+              position: relative;
+              z-index: 2;
+            "
+          >
+            <i
+              class="fas fa-window-minimize"
+              style="
+                position: absolute;
+                top: 10px;
+                right: 68px;
+                color: #333;
+                cursor: pointer;
+                font-size: 1.4rem;
+              "
+            ></i>
+            <i
+              class="fas fa-window-maximize"
+              style="
+                position: absolute;
+                top: 10px;
+                right: 35px;
+                color: #333;
+                cursor: pointer;
+                font-size: 1.4rem;
+              "
+            ></i>
+            <a href="#home">
+              <i
+                class="fas fa-times"
+                style="
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  color: #c63f3f;
+                  cursor: pointer;
+                  font-size: 1.5rem;
+                "
+              ></i>
+            </a>
+            <table
+              width="100%"
+              border="0"
+              cellspacing="0"
+              cellpadding="0"
+              style="margin-top: 20px"
+            >
+              <tr>
+                <td
+                  width="30%"
+                  style="padding: 10px; position: relative; top: -150px"
+                >
+                  <div style="position: relative">
+                    <img
+                      src="Pictures/matt.jpg"
+                      alt="Matt Image"
+                      style="
+                        width: 70%;
+                        border-radius: 50%;
+                        border: 2px solid #404d94;
+                        box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+                        transition: transform 0.3s, box-shadow 0.3s;
+                      "
+                      onmouseover="this.style.transform='scale(1.03)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                    />
+                    <!-- Divider lines -->
+                    <div
+                      style="
+                        position: absolute;
+                        top: -190px;
+                        right: -2px;
+                        width: 2px;
+                        height: 320%;
+                        background-color: rgba(64, 77, 148, 0.6);
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+                      "
+                    ></div>
+                    <!-- End of divider lines -->
+                  </div>
+
+                  <!-- HP section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        background-color: rgb(242, 234, 212);
+                        width: 35%;
+                        height: 45px;
+                        border-radius: 20px;
+                        position: absolute;
+                        top: -350px;
+                        left: 260px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1.2rem;
+                        text-align: center;
+                        color: #83c062;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                      "
+                      onmouseover="this.style.transform='scale(1.03)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                    >
+                      HP 100
+                    </div>
+                  </div>
+                  <!-- End of HP section -->
+
+                  <!-- Kerbytes section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 20px;
+                        margin-left: 40px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1.5rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      Kerbytes
+                    </div>
+                  </div>
+                  <!-- End of Kerbytes section -->
+
+                  <!-- Type section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        background-color: #c57483;
+                        width: 80%;
+                        height: 45px;
+                        border-radius: 20px;
+                        position: absolute;
+                        margin-top: 110px;
+                        margin-left: 40px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1.2rem;
+                        text-align: center;
+                        color: rgb(242, 234, 212);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: transform 0.3s, box-shadow 0.3s;
+                      "
+                      onmouseover="this.style.transform='scale(1.03)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                    >
+                      Type: Student
+                    </div>
+                  </div>
+                  <!-- End of Type section -->
+
+                  <!-- FRONTEND section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 220px;
+                        margin-left: -110px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      9/10
+                    </div>
+                  </div>
+                  <!-- End of FRONTEND section -->
+
+                  <!-- FRONTEND section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 250px;
+                        margin-left: -110px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      FRONTEND
+                    </div>
+                  </div>
+                  <!-- End of FRONTEND section -->
+
+                  <!-- GFX section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 220px;
+                        margin-left: 45px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      10/10
+                    </div>
+                  </div>
+                  <!-- End of GFX section -->
+
+                  <!-- GFX section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 250px;
+                        margin-left: 45px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      GFX
+                    </div>
+                  </div>
+                  <!-- End of GFX section -->
+
+                  <!-- BACKEND section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 220px;
+                        margin-left: 180px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      8/10
+                    </div>
+                  </div>
+                  <!-- End of BACKEND section -->
+
+                  <!-- BACKEND section -->
+                  <div style="position: relative">
+                    <div
+                      style="
+                        width: 80%;
+                        height: 45px;
+                        position: absolute;
+                        margin-top: 250px;
+                        margin-left: 180px;
+                        font-family: 'Press Start 2P';
+                        font-size: 1rem;
+                        text-align: center;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      BACKEND
+                    </div>
+                  </div>
+                  <!-- End of BACKEND section -->
+                </td>
+
+                <td width="70%" style="padding: 10px; vertical-align: top">
+                  <h1
+                    style="
+                      font-size: 3rem;
+                      color: #c57483;
+                      font-family: 'Press Start 2P';
+                      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    "
+                  >
+                    Matt Kerby Perez
+                  </h1>
+                  <p
+                    style="
+                      font-size: 1.2rem;
+                      color: #c57483;
+                      font-family: 'Press Start 2P';
+                      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    "
+                  >
+                    Web Developer | Graphic Designer
+                  </p>
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: center;
+                      margin-top: 30px;
+                    "
+                  >
+                    <img
+                      src="Pictures/Facebook.png"
+                      style="
+                        width: 40px;
+                        margin: 0 10px;
+                        transition: transform 0.3s;
+                        margin-bottom: 5px;
+                      "
+                      onmouseover="this.style.transform='scale(1.1)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                      alt="Facebook"
+                    />
+                    <img
+                      src="Pictures/Twitter.png"
+                      style="
+                        width: 40px;
+                        margin: 0 10px;
+                        transition: transform 0.3s;
+                        margin-bottom: 5px;
+                      "
+                      onmouseover="this.style.transform='scale(1.1)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                      alt="Twitter"
+                    />
+                    <img
+                      src="Pictures/Github.png"
+                      style="
+                        width: 40px;
+                        margin: 0 10px;
+                        transition: transform 0.3s;
+                        margin-bottom: 5px;
+                      "
+                      onmouseover="this.style.transform='scale(1.1)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                      alt="Github"
+                    />
+                    <img
+                      src="Pictures/Linkedin.png"
+                      style="
+                        width: 40px;
+                        margin: 0 10px;
+                        transition: transform 0.3s;
+                        margin-bottom: 5px;
+                      "
+                      onmouseover="this.style.transform='scale(1.1)';"
+                      onmouseout="this.style.transform='scale(1)';"
+                      alt="Linkedin"
+                    />
+                  </div>
+                  <div
+                    style="
+                      background-color: rgb(235, 210, 174, 0.8);
+                      border-radius: 10px;
+                      padding: 20px;
+                      margin: 10px 0;
+                      box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+                      transition: transform 0.3s, box-shadow 0.3s;
+                    "
+                    onmouseover="this.style.transform='scale(1.01)';"
+                    onmouseout="this.style.transform='scale(1)';"
+                  >
+                    <h2
+                      style="
+                        border-bottom: 2px solid #404d94;
+                        padding-bottom: 10px;
+                        color: #d7ab3b;
+                        font-family: 'Press Start 2P';
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                      "
+                    >
+                      ~ About Me ~
+                    </h2>
+                    <p
+                      style="
+                        color: #333;
+                        font-size: 1.1rem;
+                        font-family: 'Press Start 2P';
+                      "
+                    >
+                      Hello! I'm Matt Kerby
+                      <span style="color: #c57483">(Kirby)</span> Perez, a
+                      passionate Web Developer and Graphic Designer. With a love
+                      for crafting intuitive websites and creating eye-catching
+                      visuals, I blend creativity and technical expertise to
+                      bring ideas to life. My work is inspired by the whimsical
+                      worlds of Kirby and Pokémon, infusing fun and imagination
+                      into every project.
+                    </p>
+                  </div>
+                  <div
+                    style="
+                      background-color: rgba(235, 210, 174, 0.8);
+                      border-radius: 10px;
+                      padding: 20px;
+                      margin: 10px 0;
+                      box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+                      transition: transform 0.3s, box-shadow 0.3s;
+                    "
+                    onmouseover="this.style.transform='scale(1.01)';"
+                    onmouseout="this.style.transform='scale(1)';"
+                  >
+                    <h2
+                      style="
+                        border-bottom: 2px solid #404d94;
+                        padding-bottom: 10px;
+                        color: #d7ab3b;
+                        font-family: 'Press Start 2P';
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                      "
+                    >
+                      ~ Trivia ~
+                    </h2>
+                    <p
+                      style="
+                        color: #333;
+                        font-size: 1.2rem;
+                        font-family: 'Press Start 2P';
+                      "
+                    >
+                      <span
+                        style="
+                          display: block;
+                          background-color: rgb(255, 235, 204, 0.6);
+                          padding: 5px;
+                          font-size: 1.1rem;
+                          margin-bottom: 5px;
+                        "
+                      >
+                        🐊 A crocodile cannot stick its tongue out.
+                      </span>
+                      <span
+                        style="
+                          display: block;
+                          background-color: rgb(230, 255, 230, 0.6);
+                          padding: 5px;
+                          font-size: 1.1rem;
+                          margin-bottom: 5px;
+                        "
+                      >
+                        💄 Some lipsticks contain fish scales.
+                      </span>
+                      <span
+                        style="
+                          display: block;
+                          background-color: rgb(255, 230, 230, 0.6);
+                          padding: 5px;
+                          font-size: 1.1rem;
+                          margin-bottom: 5px;
+                        "
+                      >
+                        💵 There are 293 ways to make change for a dollar.
+                      </span>
+                      <span
+                        style="
+                          display: block;
+                          background-color: rgb(230, 230, 255, 0.6);
+                          padding: 5px;
+                          font-size: 1.1rem;
+                        "
+                      >
+                        🧲 Rubber bands last longer when refrigerated.
+                      </span>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
 
     <!-- lanz Section -->
     <section id="lanz">
@@ -712,155 +1317,134 @@
 
     <!-- josh Section -->
     <section
-    id="josh"
-    style="
-      background-color: #4c7f86;
-      padding: 40px;
-      text-align: center;
-      border: 5px solid #0e7900; 
-      border-radius: 10px; 
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-      margin: 20px; 
-    "
-    >
-    <table
+      id="josh"
       style="
-        width: 100%;
-        border-collapse: collapse;
+        background-color: #4c7f86;
+        padding: 40px;
+        text-align: center;
+        border: 5px solid #0e7900;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
       "
     >
-      <tr>
-        <td
-          style="
-            vertical-align: top;
-            width: 33%;
-            padding: 20px;
-          "
-        >
-          <div
-            style="
-              background-color: #7dae34;
-              border: 1px solid #00796b;
-              border-radius: 8px;
-              padding: 20px;
-              height: 100%;
-            "
-          >
-            <h2
+      <table style="width: 100%; border-collapse: collapse">
+        <tr>
+          <td style="vertical-align: top; width: 33%; padding: 20px">
+            <div
               style="
-                font-family: 'Unica One', cursive;
-                color: #00796b;
-                margin-top: 0;
+                background-color: #7dae34;
+                border: 1px solid #00796b;
+                border-radius: 8px;
+                padding: 20px;
+                height: 100%;
               "
             >
-              About Me
-            </h2>
-            <p
+              <h2
+                style="
+                  font-family: 'Unica One', cursive;
+                  color: #00796b;
+                  margin-top: 0;
+                "
+              >
+                About Me
+              </h2>
+              <p
+                style="
+                  font-size: 1rem;
+                  color: #004d40;
+                  margin: 0 0 20px 0;
+                  line-height: 1.6;
+                "
+              >
+                Hi, I am Kevin Josh Santos, someone who has a keen interest in
+                technology and would love to create new ones. I am an easy-going
+                guy and can have good conversations.
+              </p>
+            </div>
+          </td>
+          <td style="vertical-align: middle; width: 34%">
+            <div
               style="
-                font-size: 1rem;
-                color: #004d40;
-                margin: 0 0 20px 0;
-                line-height: 1.6;
-              "
-            >
-              Hi, I am Kevin Josh Santos, someone who has a keen interest in technology and would love to create new ones. I am an easy-going guy and can have good conversations.
-            </p>
-          </div>
-        </td>
-        <td
-          style="
-            vertical-align: middle;
-            width: 34%;
-          "
-        >
-          <div
-            style="
-              display: inline-block;
-              border: 3px solid #00796b;
-              border-radius: 50%;
-              padding: 10px;
-            "
-          >
-            <img
-              src="Pictures/josh.png"
-              alt="Josh Image"
-              style="
+                display: inline-block;
+                border: 3px solid #00796b;
                 border-radius: 50%;
-                border: 20px solid #00796b;
-                max-width: 200px;
+                padding: 10px;
               "
-            />
-          </div>
-          <h1
-            style="
-              font-family: 'Unica One', cursive;
-              color: #15d642;
-              margin: 20px 0;
-              display: inline-block;
-              border: 2px solid #15d642; 
-              padding: 10px;
-              border-radius: 500px;
-            "
-          >
-            Kevin Josh Santos
-          </h1>
-          <h2
-            style="
-              font-family: 'Unica One', cursive;
-              color: #15d642;
-              margin: 0;
-            "
-          >
-            Web Developer
-          </h2>
-        </td>
-        <td
-          style="
-            vertical-align: top;
-            width: 33%;
-            padding: 20px;
-          "
-        >
-          <div
-            style="
-              background-color: #6f69d8;
-              border: 1px solid #99b51c;
-              border-radius: 8px;
-              padding: 20px;
-              height: 100%;
-            "
-          >
+            >
+              <img
+                src="Pictures/josh.png"
+                alt="Josh Image"
+                style="
+                  border-radius: 50%;
+                  border: 20px solid #00796b;
+                  max-width: 200px;
+                "
+              />
+            </div>
+            <h1
+              style="
+                font-family: 'Unica One', cursive;
+                color: #15d642;
+                margin: 20px 0;
+                display: inline-block;
+                border: 2px solid #15d642;
+                padding: 10px;
+                border-radius: 500px;
+              "
+            >
+              Kevin Josh Santos
+            </h1>
             <h2
               style="
                 font-family: 'Unica One', cursive;
-                color: #8346b5;
-                margin-top: 0;
+                color: #15d642;
+                margin: 0;
               "
             >
-              Facts About Me
+              Web Developer
             </h2>
-            <ul
+          </td>
+          <td style="vertical-align: top; width: 33%; padding: 20px">
+            <div
               style="
-                list-style: none;
-                padding: 0;
-                font-size: 1rem;
-                color: #11004d;
-                line-height: 1.6;
+                background-color: #6f69d8;
+                border: 1px solid #99b51c;
+                border-radius: 8px;
+                padding: 20px;
+                height: 100%;
               "
             >
-              <li>Don't like insects</li>
-              <li>Love watching thriller movies</li>
-              <li>Sometimes oversleeps</li>
-              <li>Pizza is my favorite food</li>
-              <li>Can be clumsy</li>
-              <li>Have a pet dog</li>
-            </ul>
-          </div>
-        </td>
-      </tr>
-    </table>
+              <h2
+                style="
+                  font-family: 'Unica One', cursive;
+                  color: #8346b5;
+                  margin-top: 0;
+                "
+              >
+                Facts About Me
+              </h2>
+              <ul
+                style="
+                  list-style: none;
+                  padding: 0;
+                  font-size: 1rem;
+                  color: #11004d;
+                  line-height: 1.6;
+                "
+              >
+                <li>Don't like insects</li>
+                <li>Love watching thriller movies</li>
+                <li>Sometimes oversleeps</li>
+                <li>Pizza is my favorite food</li>
+                <li>Can be clumsy</li>
+                <li>Have a pet dog</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
     </section>
-    
 
     <!-- cain Section -->
     <section
